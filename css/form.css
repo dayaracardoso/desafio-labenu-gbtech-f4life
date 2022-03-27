@@ -65,7 +65,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 1046px) {
   .col-25,
   .col-75 {
-    width: 100%;
+    width: 90%;
     margin-top: 0;
     text-align: left;
   }
