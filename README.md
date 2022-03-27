@@ -1,3 +1,5 @@
+_*Repositório contendo minha entrega do desafio do progama Desenvolve 2022, do Grupo Boticário com a Labenu_
+
 # Desafio - Programa Desenvolve
 
 ## 1 - Introdução
