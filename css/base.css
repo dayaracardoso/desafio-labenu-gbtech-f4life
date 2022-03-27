@@ -1,0 +1,32 @@
+/* ATRIBUTOS GERAIS */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --branco: #fff;
+    --cor-fundo-logo: #132235;
+    --texto-logo: #6ddad3;
+    --cor-fundo-claro: #f2f2f2;
+    --preto: #000000;
+    --vermelho: #ff0000;
+    --montserrat: "Montserrat", sans-serif;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-fundo-logo);
+  }
+  
+  a {
+    font-family: var(--montserrat);
+    color: var(--cor-fundo-logo);
+  }
+  
+  .container {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  

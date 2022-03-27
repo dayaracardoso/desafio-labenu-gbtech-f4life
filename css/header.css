@@ -1,0 +1,66 @@
+/* ATRIBUTOS DO TOPO DO SITE */
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    padding: 0.7rem 0.25rem 0 0.25rem;
+    background-color: var(--cor-fundo-logo);
+    border-bottom: 2px solid var(--branco);
+  }
+  
+  .sociais-topo {
+    display: none;
+  }
+  
+  .menu-site {
+    text-align: center;
+    background-color: var(--cor-fundo-logo);
+  }
+  
+  .menu-site li {
+    font-size: 0.8rem;
+    display: inline-block;
+    margin: 0.75rem 1rem;
+    text-transform: uppercase;
+    padding: 0;
+  }
+  
+  .menu-site li a,
+  .menu-site li a:link {
+    color: var(--branco);
+    transition: color 1s;
+  }
+  
+  .menu-site li a:hover {
+    color: var(--texto-logo);
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-evenly;
+      border: none;
+      padding-bottom: 0.75rem;
+    }
+  
+    .menu-site {
+      border: none;
+      text-align: center;
+      background-color: var(--cor-fundo-logo);
+    }
+  
+    .menu-site li {
+      font-size: 1rem;
+      display: inline-block;
+      margin: 0.5rem 1rem;
+      text-transform: uppercase;
+      padding: 10px;
+    }
+  
+    .sociais-topo {
+      display: block;
+    }
+  }
+  

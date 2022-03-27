@@ -1,0 +1,76 @@
+/* ATRIBUTOS DA SEÇÃO DE SERVIÇOS */
+
+.servicos {
+    padding-top: 12rem;
+  }
+  
+  .servicos ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--preto);
+  }
+  
+  .servicos li {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    width: 100%;
+    max-width: 80%;
+    margin-bottom: 2rem;
+    border-left: 5px solid var(--texto-logo);
+    box-shadow: 0 2px 10px 0 #00000010;
+  }
+  
+  .servicos h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+    margin: 0 2rem;
+    text-transform: uppercase;
+    color: var(--cor-fundo-logo);
+  }
+  
+  .servicos article {
+    padding: 0.5rem 2rem;
+  }
+  
+  .servicos a {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--preto);
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    border: 1px solid var(--cor-fundo-logo);
+    box-shadow: 4px 4px #6ddad380;
+  }
+  
+  .servicos a:hover {
+    color: var(--vermelho);
+    box-shadow: 4px 4px #88888880;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .servicos li {
+      max-width: 400px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .servicos {
+      padding-top: 0;
+    }
+    .servicos ul {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .servicos li {
+      max-width: 400px;
+      min-height: 220px;
+      margin: 0 1rem;
+    }
+  }
+  

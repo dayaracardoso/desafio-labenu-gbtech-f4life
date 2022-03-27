@@ -1,0 +1,81 @@
+/* ATRIBUTOS DO FORMULÁRIO */
+.form-container {
+  padding: 20px;
+  font-family: var(--montserrat);
+  text-transform: uppercase;
+}
+.fale-conosco {
+  background-color: var(--branco);
+  width: 80%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--preto);
+  resize: none;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--preto);
+  display: block;
+  border: 1px solid var(--cor-fundo-logo);
+  box-shadow: 4px 4px #6ddad380;
+  background-color: var(--branco);
+  padding: 12px 20px;
+  cursor: pointer;
+  float: right;
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  color: var(--vermelho);
+  box-shadow: 4px 4px #88888880;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  text-align: right;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1046px) {
+  .col-25,
+  .col-75 {
+    width: 100%;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+  }
+
+  label {
+    padding: 25px 12px 5px 0;
+    display: inline-block;
+  }
+}

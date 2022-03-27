@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" ″ />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>F4Life</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/servicos.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header container">
+      <img src="img/logo-pequeno.png" alt="Logotipo da F4LIFE" class="header-logo" />
+      <nav class="menu-site">
+        <ul>
+          <li><a href="#">Quem Somos</a></li>
+          <li><a href="#nossos-servicos">Serviços</a></li>
+          <li><a href="#fale-conosco">Fale Conosco</a></li>
+        </ul>
+      </nav>
+      <div class="sociais-topo">
+        <nav class="links-sociais">
+          <ul>
+            <li>
+              <a href="http://www.facebook.com" target="blank"><img src="img/facebook.png" alt="Ícone do Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.twitter.com" target="blank"><img src="img/twitter.png" alt="Ícone do twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.instagram.com" target="blank"><img src="img/instagram.png" alt="Ícone do Instagram"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="secao-quem-somos">
+        <div class="quem-somos">
+          <div class="texto">
+            <p>
+              Somos uma empresa de aluguéis de repúblicas para pessoas universitárias.<br />Realizamos reformas e preparamos moradias para recepção de pessoas universitárias em um ambiente próprio para a vida de graduação.
+            </p>
+            <a href="#nossos-servicos">Conheça nossos serviços</a>
+          </div>
+        </div>
+      </section>
+      <section class="conteudo-secao servicos" id="nossos-servicos">
+        <h1>Nossos serviços</h1>
+
+        <ul class="servicos-opcoes">
+          <li class="reforma">
+            <h2>REFORMA</h2>
+            <article>
+              <p>
+                Reformamos ambientes para que a experiência de moradia seja incrível.
+              </p>
+              <a href="#" class="link">CONTRATAR</a>
+            </article>
+          </li>
+          <li class="preparar">
+            <h2>PREPARAÇÃO DE AMBIENTE</h2>
+            <article>
+              <p>
+                Precisa preparar o ambiente para receber pessoas? Não se
+                preocupe, nós ajudamos.
+              </p>
+              <a href="#" class="link">CONTRATAR</a>
+            </article>
+          </li>
+          <li class="aluguel">
+            <h2>ALUGUEL</h2>
+            <article>
+              <p>
+                Veja nossos espaços, preparados para receber pessoas especiais!
+              </p>
+              <a href="#" class="">CONTRATAR</a>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="conteudo-secao" id="fale-conosco">
+        <h1>Fale Conosco</h1>
+
+        <div class="fale-conosco">
+          <div class="form-container">
+            <form action="" id="form-contato" name="contato" onsubmit="validaTudo(event);">
+              <div class="row">
+                <div class="col-25">
+                  <label for="nome">Escreva seu nome</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="nome" required placeholder="Seu nome" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                  <input type="email" id="email" required placeholder="seuemail@dominio.com" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="mensagem">Mensagem</label>
+                </div>
+                <div class="col-75">
+                  <textarea rows="10" id="mensagem" required></textarea>
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <input  type="submit" value="Enviar" class="enviar" id="enviar" onblur="validaCampos();" />
+              </div>
+            </form>
+          </div>
+          <script src="js/script.js"></script>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="sociais-rodape">
+        <nav class="links-sociais">
+          <ul>
+            <li>
+              <a href="http://www.facebook.com" target="blank"><img src="img/facebook.png" alt="Ícone do Facebook" /></a>
+            </li>
+            <li>
+              <a href="http://www.twitter.com" target="blank"><img src="img/twitter.png" alt="Ícone do twitter" /></a>
+            </li>
+            <li>
+              <a href="http://www.instagram.com" target="blank"><img src="img/instagram.png" alt="Ícone do Instagram" /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="copy">F4LIFE &copy; 2022 - Todos os direitos reservados</div>
+    </footer>
+  </body>
+</html>

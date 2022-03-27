@@ -1,0 +1,131 @@
+/* ATRIBUTOS DA PARTE CENTRAL DO SITE */
+
+.conteudo-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  .conteudo-secao h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .conteudo-secao p {
+    line-height: 1.2rem;
+    padding: 0 1rem;
+  }
+  
+  .secao-quem-somos {
+    display: block;
+    width: 100%;
+    min-height: 300px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10.5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  .quem-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-image: url(../img/equipe.jpg);
+    background-size: cover;
+    height: 300px;
+    color: var(--branco);
+  }
+  
+  .quem-somos a {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--preto);
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    border: 1px solid var(--cor-fundo-logo);
+    box-shadow: 4px 4px #6ddad380;
+  }
+  
+  .quem-somos a:hover {
+    color: var(--vermelho);
+    box-shadow: 4px 4px #88888880;
+  }
+  
+  .texto {
+    background-color: var(--branco);
+    width: 100%;
+    color: var(--preto);
+  }
+  
+  .texto p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 2rem 2rem 0 2rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .quem-somos {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      height: 700px;
+    }
+  
+    .texto {
+      display: block;
+      font-size: 1.2rem;
+      width: 40%;
+      min-height: 300px;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      padding: 3rem;
+    }
+  
+    .texto p {
+      line-height: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .conteudo-secao {
+      padding-top: 12rem;
+    }
+  
+    .secao-quem-somos {
+      padding-top: 0;
+    }
+  
+    .quem-somos {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      height: 700px;
+    }
+  
+    .texto {
+      display: block;
+      font-size: 1.2rem;
+      width: 40%;
+      min-height: 250px;
+      margin-top: 10rem;
+      margin-left: 5rem;
+      padding: 3rem;
+    }
+  
+    .texto p {
+      line-height: 3rem;
+      padding: 0;
+    }
+  }
+  
